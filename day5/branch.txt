@@ -1,0 +1,29 @@
+1. git branch
+    => Lists all the branches and highlights the current branch
+
+2. git branch <branch_name>
+    => Creates a new branch with given branch-name
+
+3. git checkout <branch_name>
+    => Jumps to the branch_name provided
+
+4. git checkout -b <branch_name>
+
+
+4. git branch -M main
+    => Changes the master branch to main
+
+5. git push -u origin <branch_name>
+
+6. ssh-keygen
+=> Generates an SSH public/private key-pair
+=> Paste the public key to the Github settings
+
+7. git remote add origin <ssh-link>
+    => adds a remote of name "origin"
+
+8. git remote -v
+    => lists all the remote links
+
+9. git remote remove origin
+    => Removes the remote link
