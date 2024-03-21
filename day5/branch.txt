@@ -8,6 +8,7 @@
     => Jumps to the branch_name provided
 
 4. git checkout -b <branch_name>
+    => Creates a branch in the main repo. Then jumps to that branch
 
 
 4. git branch -M main
