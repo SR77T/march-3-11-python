@@ -4,10 +4,10 @@
 # try:
 #     num1 = int(input("enter first number: "))
 #     num2 = int(input("Enter second number: "))
+#     result = num1 + num2
 # except:
 #     print("The input number is invalid")
 # else:
-#     result = num1 + num2
 #     print(f"The sum of two numbers is {result}")
 
 
@@ -28,21 +28,6 @@
 # Create a dictionary student with keys id, name, age, department. Take a input from the user, which 
 # info (id, name, age or department) he wants to access and print the result. Handle the possible exceptions.
 
-
-# student = {"id" : 1,
-#            "name" : "Jane",
-#            "age" : 25,
-#            "department" : "finance"
-#            }
-# try:
-#     get_info = input("Which information do you want to access? Enter 'id', 'name', 'age' or 'department': ")
-#     result =  student[get_info]
-# except KeyError:
-#     print(f"key error {get_info} is raised.")
-# else: 
-#     print(f"The {get_info} of the student is {result} ")
-
-
 student = {"id": 1, "name": "Ram", "age": 30, "department": "CS"}
 key = input("Enter the info you want to access ")
 try:
@@ -61,3 +46,18 @@ else:
 
 result = student.get(key, "N/A")
 print(f"The {key} of the student is {student[key]}")
+
+
+
+# student = {"id" : 1,
+#            "name" : "Jane",
+#            "age" : 25,
+#            "department" : "finance"
+#            }
+# try:
+#     get_info = input("Which information do you want to access? Enter 'id', 'name', 'age' or 'department': ")
+#     result =  student[get_info]
+# except KeyError:
+#     print(f"key error {get_info} is raised.")
+# else: 
+#     print(f"The {get_info} of the student is {result} ")
