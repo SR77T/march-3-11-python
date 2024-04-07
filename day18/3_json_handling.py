@@ -1,7 +1,7 @@
 
 # JSON stands for Javascript Object Notation
 # JSON is a file format to share data among different entities. For example, it helps in the communication
-# between FE and BE, BE and Mobile end, BE and BE
+# between FE(frontend) and BE(backend), BE and Mobile end, BE and BE
 
 # There is also another format for data sharing i.e XML
 
@@ -57,8 +57,8 @@ with open(filename, "w") as fp:
     fp.write(data)
 
 with open(filename, "r") as fp:
-    data = fp.read()
-    x = json.loads(data)
+    # data = fp.read()
+    x = json.loads(fp.read())
     print(x[2]["address"])
 
 
